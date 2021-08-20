@@ -7,6 +7,7 @@ public class GitDemo {
 		//System.out.println("Welcome to java world");
 		//test run 
 		// first step
+		// test 1 ++
 		for (int i = 0; i < 100; i++) {
 
 			if (i % 2 == 0) {    
