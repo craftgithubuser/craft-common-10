@@ -8,7 +8,8 @@ public class java {
 		
         System.out.println ("craft common");
         System.out.println ("ari f" ); 
-        System.out.println ("hello" );    
+        System.out.println ("hello" );  
+        System.out.println ("arif" ); 
 	}
 
 }
