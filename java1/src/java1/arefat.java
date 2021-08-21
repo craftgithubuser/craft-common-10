@@ -6,6 +6,7 @@ public class arefat {
 		// TODO Auto-generated method stub
 	  System.out.println ("adding ");
 	  System.out.println ("adding 1 ");
+	  System.out.println ("adding 2 ");
 	}
 
 }
