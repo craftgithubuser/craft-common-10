@@ -6,6 +6,10 @@ public class javaproject {
 		// TODO Auto-generated method stub
 System.out.print("welcome to java world");
 System.out.print("Sure");
+System.out.print("Sure");
+System.out.print("Test");
+System.out.print("Sure");
+
 
 	}
 
