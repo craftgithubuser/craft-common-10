@@ -6,6 +6,7 @@ public class Javaproject {
 		// TODO Auto-generated method stub
 		System.out.println("welcome to java");
         System.out.println("java project");
+        
 	}
 
 }
