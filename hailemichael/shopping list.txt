@@ -1,0 +1,6 @@
+Fruet
+1 apples
+2 bananas
+3 oranges
+4 grapes
+5 avocados
