@@ -1,0 +1,14 @@
+create database MyDB
+use MyDB;
+create table if not exists customer (
+  Cust_ID int NOT null ,
+  Cust_FirstName varchar(250) not null,
+  Cust_LastName  VarChar(20) not null,
+  Cust_NickName varchar(255),
+  Cust_Age int,
+  Cust_Gender 	varchar(1) not null,
+  Cust_Country varchar(255) not null,
+  Cust_Salary Decimal(65,2)not null
+);
+
+Drop table  customer
