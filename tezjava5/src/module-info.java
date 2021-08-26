@@ -1,0 +1,2 @@
+module tezjava5 {
+}
