@@ -1,0 +1,44 @@
+ 1.what is Data?        a data is distinct information or a fact that can be recorded. It can be a text, numbers, images or videos,…
+
+2.what is Information?
+
+   An information is is a description of something eg, people company …
+
+3.what is Database(DB)?
+
+ A collection of related of Data, that  represent some real world entities.  
+4.What is the Relation Database Management System(RDBMS)?
+
+  It's a database management system that has tables rows and columns. 
+
+5.Define the importance of Relation Database Management System(RDBMS)?
+
+   Interacts with the user, application and data to capture and analyze data.makes it easy to manage information handle security etc…
+
+6.As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+
+  A relational database is structured
+  A non relational database is document-oriented
+   
+7.List examples of Relation Database Management System(RDBMS)?
+ Oracle Database, MySQL, Microsoft SQL Server, and IBM DB2.
+              
+8.List examples of Non-Relational DB(Nosql)?
+ MongoDB, Apache Cassandra, Redis,
+
+9.Define and Describe is Structured Query Language(SQL)?
+ core of a relational database which is used for accessing and managing the database. Standardized language,Used to perform CRUD and define Tables and structure.
+10.List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+    DDL- Data Definition Language, perfoms various ops changes in the structure of table creating altering and deleting          the table saves changes permanently in the database. 
+    DML- Data Manipulation Language, uses to manipulate the stored data in tables not the table itself ,insert update retrieve delete form the database itself changes can be rolled back.
+    DCL- Data Control Language grants and revokes access form a user.
+    TCL- Transaction Control Language, manages transactions in database like commit Rollbacks save points …
+    
+11.what is table in Database(DB)?
+
+               objects that contain all the data  organized in row and column
+
+12.what is column and Row(tuples) in table?
+
+   Column are comprised of column name and data type and rows are records of the data in the column 
