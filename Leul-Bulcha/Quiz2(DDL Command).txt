@@ -3,12 +3,13 @@ use MyDB;
 
 create table Customers
 (
-	Cust_ID int primary key auto_increment,
-    Cust_FirstName varchar(30) ,
-    Cust_LastName varchar(30),
+    Cust_ID int primary key auto_increment,
+    Cust_FirstName varchar(30) not null,
+    Cust_LastName varchar(30) not null,
     Cust_NickName varchar(30),
     Cust_Age int,
-    Cust_Salary varchar(30),
-    Cust_Gender char(1) default 'X' 
-				   check( Cust_Gender in ('M', 'F', 'X'))
+    Cust_Country Varchar(30) not null,
+    Cust_Gender varchar (10),
+    Cust_Salary double not null
+    
 );
