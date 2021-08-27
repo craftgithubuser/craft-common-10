@@ -1,0 +1,10 @@
+Table: customers
+Columns:
+cust_ID int AI PK 
+cust_FirstName varchar(50) 
+cust_LastName varchar(50) 
+cust_NickName varchar(20) 
+cust_age int 
+cust_Gender char(1) 
+cust_Country varchar(10) 
+Cust_Salary double
