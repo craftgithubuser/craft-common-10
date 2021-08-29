@@ -1,3 +1,4 @@
+-- Quiz 1  2
 CREATE DATABASE MyDB;
 USE MyDB;
 
@@ -12,7 +13,7 @@ CREATE TABLE  customers  (
 							Cust_Salary Decimal not null,
 							primary key(Cust_ID) 
 );
--- Quiz 1  2
+
 
 -- Add column using alter.
 ALTER TABLE customers
