@@ -1,0 +1,36 @@
+1.	what is Data?
+Data is collection of information or record that explaining about something like text, number and video.
+
+2.       what is Information?
+Information that can describe about material, object and person detail. 
+3.      what is Database(DB)?
+Data is organized systematically called database or collection of data.
+ 
+4.      What is the Relation Database Management System (RDBMS)?
+Software application that interacts with user.
+5.      Define the importance of Relation Database Management System(RDBMS)?
+Make it easy to manage large amount of information
+Handle security, backups concurrency, interacts with system application
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). What is the difference between them.
+-Relational database stores data in the tables and rows.
+-Stores data how ever there is no table, row, primary key or foreign keys instead use a storage model.
+
+7. 	List examples of Relation Database Management System(RDBMS)?
+Indexing 
+8.       List examples of Non-Relational DB(Nosql)? 
+Document data stores
+
+9.       Define and Describe is Structured Query Language(SQL)?
+SQL which has robust language designed from managing the data housing in a relational database.
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)? It allows you to perform various operations on the database
+Stracture of tables like creation of table, all DDL command is auto committed
+ create, alter, truncate, drop, rename
+Insert, update, delete, select
+
+11.      what is table in Database(DB)?
+A table is a collection of related data held in a table
+12.     what is column and Row(tuples) in table?
+Each row in DataBase table represent one instance or record
+   Each column expects a data value of a particular type
+
