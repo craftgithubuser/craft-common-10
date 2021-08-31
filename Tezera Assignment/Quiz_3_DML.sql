@@ -16,6 +16,10 @@ drop table customer;
 
 drop schema mydb1;
 
+create schema mydb1;
+
+use mydb1;
+
 CREATE TABLE customers (
 Cust_ID int NOT NULL AUTO_INCREMENT,
   Cust_FirstName varchar(255) NOT NULL,
@@ -28,10 +32,6 @@ Cust_ID int NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (Cust_ID)
 );
 describe customers; 
-
-create schema mydb1;
-
-use mydb1;
 
 -- Quiz_3 starts here; 
 
