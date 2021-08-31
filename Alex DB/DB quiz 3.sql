@@ -26,9 +26,20 @@ UPDATE Customers
 SET Cust_Country = 'Ethiopia'
 WHERE Cust_ID = 555;
 
+update customers
+       set Cust_Country ='Ethio'
+	   where (Cust_ID= 333 or Cust_ID= 444 or Cust_ID=555);
+       
+  update customers 
+        set Cust_Country = 'Ethiopia'
+        where Cust_ID in ( 333,  444,  555);     
+
 DELETE From customers
 WHERE Cust_ID = 666;
 
+-- change Salary from Decimal to double personal correction
+
 ALTER TABLE customers
 Modify Cust_Salary double;
+
 
