@@ -1,0 +1,42 @@
+requirement
+===================
+
+<name>
+<firstname>Ted</firstname> -- the data has to be string
+<lastname>Bear</lastname> -- the data has to be string
+<age>20</age> -- the data has to be integer between 0-60
+<address>
+	<street>test</street>  -- the data has to be string
+	<city>test</city>	-- the data has to be string
+	<state>MN</state>  -- the data has to be string and capital two characheter
+	<zip>1234</zip>  -- the data has to be integer, 5 digit, all digits start with 1-9
+</address>
+</name>
+
+use below template to finalize the lab
+=======================================
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+   <xs:element name="name">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element type="xs:string" name="firstname" />
+            <xs:element type="xs:string" name="lastname" />
+            <xs:element name="age">
+               <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                     <xs:minInclusive value="0" />
+                     <xs:maxInclusive value="30" />
+	 <xs:element name="address">
+         <xs:element type="xs:string" name="street"/>
+	<xs:element type="xs:string" name="city"/>	
+	<xs:element type="xs:string" name="state" />
+         <xs:element type="xs:integer" name="zip"/>
+                  </xs:restriction>
+               </xs:simpleType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
