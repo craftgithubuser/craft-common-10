@@ -1,24 +1,35 @@
-SELECT * FROM mydb1.customers;
+create schema MyDB;
+use MyDB;
+CREATE TABLE customers (
+Cust_ID int NOT NULL AUTO_INCREMENT,
+  Cust_FirstName varchar(255) NOT NULL,
+  Cust_LastName varchar(255) NOT NULL,
+  Cust_NickName varchar(255),
+  Cust_Age int,
+  Cust_Gender char(1) NOT NULL,
+  Cust_Country varchar(255) NOT NULL,
+  Cust_Salary Decimal NOT NULL,
+  PRIMARY KEY (Cust_ID)
+);
+-- Quiz-2
+
 alter table customers
-add column bonus int not null check (bonus>100);
+add column bonus int not null; 
 
-describe customers;
-
-alter table customers
-alter Cust_Age set default 18;
+describe customers; 
 
 alter table customers
-drop column Cust_NickName, drop column bonus; 
+modify column cust_age int not null;
 
-Rename table customers to Customer;
+alter table customers
+drop column cust_nickname, drop column bonus;
+
+rename table customers to customer; 
 
 drop table customer;
-
-drop schema mydb1;
-
-create schema mydb1;
-
-use mydb1;
+drop schema mydb;
+create database MyDB;
+use MyDB;
 
 CREATE TABLE customers (
 Cust_ID int NOT NULL AUTO_INCREMENT,
@@ -31,7 +42,6 @@ Cust_ID int NOT NULL AUTO_INCREMENT,
   Cust_Salary Decimal NOT NULL,
   PRIMARY KEY (Cust_ID)
 );
-describe customers; 
 
 -- Quiz_3 starts here; 
 
@@ -46,8 +56,12 @@ values (111, 'Nick', 'Jones', null, 26, 'M', 'USA',20000000),
 (888, 'Betty', 'G', null, 27, 'F', 'Ethiopia', 70000000); 
 
 update customers
-set Cust_Country ='Ethiopia'
-where Cust_ID= 333 or Cust_ID= 444 or Cust_ID=555;
+set cust_country = 'Ethiopia'
+where cust_ID = 333 or Cust_ID = 444 or Cust_ID = 555;
 
 delete from customers
-where Cust_ID = 666;
+where cust_ID = 666;
+
+
+
+
