@@ -15,7 +15,12 @@ WHERE (Cust_ID = 333 and Cust_ID = 444 and Cust_ID = 555);*/
 
 UPDATE Customers
 SET Cust_Country = 'Ethiopia'
-WHERE Cust_ID = 33;
+WHERE Cust_ID = 333;
+
+UPDATE Customers
+SET Cust_Country = 'Ethiopia'
+WHERE Cust_ID = 444;
+
 
 UPDATE Customers
 SET Cust_Country = 'Ethiopia'
