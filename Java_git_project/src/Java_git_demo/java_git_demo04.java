@@ -7,6 +7,7 @@ public class java_git_demo04 {
 		System.out.println("GOD IS GOOD ALL THE TIME!");
 		System.out.println("I love Ethiopia!");
 		System.out.println("I love Ethiopia!");
+		System.out.println("Ethiopia Le zelalem tenur!");
 		
 
 	}
