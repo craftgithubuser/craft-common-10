@@ -1,0 +1,9 @@
+Cust_ID,Cust_FirstName,Cust_LastName,Cust_NickName,Cust_Age,Cust_Gender,Cust_Country,Cust_Salary
+111,nick,jones,NULL,26,M,USA,2000000
+222,antony,marthial,NULL,24,m,france,1000000
+333,nebiha,amir,NULL,24,f,uzbekistan,3600000
+444,soresa,hailu,NULL,24,m,ethio,4400000
+555,beka,haile,fero,28,m,ethio,67583000
+777,nick,jones,NULL,26,m,usa,2000000
+888,pogba,poul,"the maker",26,m,france,2000000
+999,betty,G,tutu,27,f,ethio,340000
