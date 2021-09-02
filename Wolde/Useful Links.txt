@@ -1,9 +1,0 @@
-GIT:
-https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
-
-MySQL:
-https://www.tutorialspoint.com/mysql/index.htm
-
-
-https://www.javatpoint.com/computer-network-tutorial
-https://www.tutorialgateway.org/mysql-tutorial/

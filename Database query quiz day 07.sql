@@ -1,0 +1,18 @@
+select * from Customers;
+select * from customers where Cust_Country ='Ethiopian';
+select * from customers where Cust_Salary >5000000;
+select Cust_FirstName, Cust_LastName, Cust_Country from customers where Cust_Gender='M';
+Select Distinct Cust_Country from Customers;
+select Cust_FirstName, Cust_LastName, Cust_Country from customers order by Cust_Gender='F' desc;
+Select * from Customers where Cust_Gender='F' AND Cust_Salary >20000000 AND Cust_Country='Ethiopian';
+Select * from Customers where Cust_Country= 'Ethiopian' or 'Uzbukistan';
+select Min(Cust_Salary) as smallestSalary from Customers;
+select Max(Cust_Salary) as maximumSalary from Customers;
+select count(Cust_ID) from customers;
+select avg(Cust_Salary) from Customers;
+select sum(Cust_Salary) from Customers;
+select * from Customers where Cust_Salary between 2000000 and 8000000;
+select * from Customers where Cust_FirstName like 'S%';
+select * from Customers where cust_FirstName like '_e%' and Cust_LastName like '%e';
+select * from customers where Cust_LastName like 'p%a';
+select * from Customers where Cust_Country in ('Ethiopia', 'USA', 'France');
