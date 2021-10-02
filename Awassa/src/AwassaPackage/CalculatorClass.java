@@ -9,7 +9,7 @@ public class CalculatorClass {
 		int val2 =10;
 		
 		int add = val1 + val2;
-		int sub = val1-val2;
+		int sub = val1-val2;  
 		int mult = val1 * val2;
 		int div = val1/val2;
 		
@@ -17,7 +17,7 @@ public class CalculatorClass {
 		System.out.println("Addition of two number: " + add);
 		System.out.println("Subtration of two number: " + sub);
 		System.out.println("Multiplication of two number: " + mult);
-		System.out.println("Division of two number: " + div);
+		System.out.println("Division of two number: " + div);     
 
 	}
 
